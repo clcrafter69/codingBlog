@@ -6,6 +6,13 @@
  
 } 
 
+p{
+    padding: 10px 10px 10px 10px;
+    line-height: 170%;
+    margin: 2.5rem;
+}
+
+
 #first-column {
     background-color: whitesmoke;
       padding: 20px 50px 20px 50px;  
@@ -19,9 +26,14 @@
 
 #test-column{
     /* margin-left: 1rem; */
+    
     padding:20px;
     background-color: darkolivegreen;
     color: whitesmoke;
+}
+
+.postspacing{
+    padding-bottom:70px;
 }
 
 #navStyle{
@@ -47,10 +59,11 @@
   /* height: 30px; */
 }
 .blok1 h1{
+    display: block;
     background-color: grey;
     color:lightgray;
     font-stretch: extra-expanded;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 2rem;
     padding: 0 0 0 0;
     text-align: center;
@@ -62,7 +75,13 @@
 
  a, h2, h5{
     font-family: cursive;
-   
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color:darkgray;
 }
 
 
